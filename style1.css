@@ -1,0 +1,23 @@
+/*Author:   Faiza Berrichi;
+    Date:     16/02/2021;
+    Version:  02.01;
+
+/*-------------------------------------------------------------*/
+/* GLOBAL */
+/*-------------------------------------------------------------*/
+
+/*feuille de style pour ecran tel*/
+.secondary-block{
+    display:none;
+}
+.milieu{
+    display: flex;
+}
+.resize{
+    width:90%;
+}
+.resize1{
+    width:20%
+}
+ 
+

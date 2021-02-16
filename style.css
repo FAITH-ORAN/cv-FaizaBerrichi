@@ -1,0 +1,153 @@
+/*Author:   Faiza Berrichi;
+    Date:     23/01/2021;
+    Version:  02.01;
+
+/*-------------------------------------------------------------*/
+/* GLOBAL */
+/*-------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'neuropolregular';
+    src: url('neuropol-webfont.woff2') format('woff2'),
+         url('neuropol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:Tahoma;
+    margin: 0px;
+}
+/*-----------------------------Header & nav-------------------------------*/
+nav{
+    max-width: 100%;
+    height: 4.37em;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    color:#464950;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    margin-left: 20%;
+   align-items: flex-end;
+}
+
+nav li{
+    margin-left: 40px;
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+}
+.secondary-block h2{
+    font-family: neuropolregular;
+}
+header h2{
+    color:#ffc2bd ;
+}
+
+header img{
+    width: 150px;
+    border-radius: 75px;
+    box-shadow:3px 3px 6px rgb(170, 170, 170) ;
+}
+
+/*--------------------------Main-----------------------------------*/
+.secondary-block{
+    color :#464950;
+    background-color:#ffc2bd;
+}
+.third-block{
+    color :#464950;
+    background-color:#ffc2bd;
+}
+.fourth-block{
+    color :#464950;
+    background-color:#ffc2bd;
+}
+.fifth-block{
+    color :#464950;
+    background-color:#ffc2bd;
+}
+.content{
+    max-width:800px;
+    margin:auto;
+   color: #464950;
+}
+
+.ai{
+    background-color: #eeedef;
+}
+.ph{
+    color:#464950 ;
+}
+section{
+    padding: 40px;
+}
+.ai ul{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+.ai li{
+    margin-bottom: 10px;
+}
+
+aside{
+    float: right;
+} 
+.content2 li{
+    list-style:none;
+}
+.links{
+    margin-bottom:25px;
+    width:390px;
+    display: inline-block;
+}
+.secondary-block ul{
+    padding:0px;
+    margin:0px;
+}
+.secondary-block li{
+    margin-bottom:10px;
+}
+.resize{
+    width:70%;
+}
+.centre{
+    text-align:center;
+}
+.milieu{
+    display: flex;
+    justify-content: center;
+}
+.milieu p {
+    margin-left: 40px;
+}
+  
+/*---------------------------footer----------------------------------*/
+footer{
+    padding:40px;
+}
+footer ul {
+    padding:0px;
+    margin:0px;
+   list-style: none;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+}
+.resize1{
+    width:15%;
+}
