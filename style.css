@@ -73,21 +73,54 @@ header img{
 }
 .fourth-block{
     color :#464950;
-    background-color:#ffc2bd;
+    background-color:#eeedef;
+    color:#464950 ;
 }
 .fifth-block{
     color :#464950;
-    background-color:#ffc2bd;
+    background-color:#eeedef;
+    color:#464950 ;
+}
+.sixth-block{
+    background-color: #eeedef;
+    color:#464950 ;
 }
 .content{
     max-width:800px;
     margin:auto;
    color: #464950;
 }
-
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
 .ai{
     background-color: #eeedef;
 }
+.bloc-gris{
+    background-color:#ffc2bd;
+} 
+/* j'ai ajouté une animation à la partie header*/
+.animation{
+    animation-duration: 2s;
+    animation-name:bounce;
+    
+}
+.animation h1 h2 img{
+    animation-iteration-count: 1;
+  }
+
+  @keyframes bounce{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+        margin-left:0%;
+        width: 100%;
+      }
+    }
+
 .ph{
     color:#464950 ;
 }
@@ -109,11 +142,7 @@ aside{
 .content2 li{
     list-style:none;
 }
-.links{
-    margin-bottom:25px;
-    width:390px;
-    display: inline-block;
-}
+
 .secondary-block ul{
     padding:0px;
     margin:0px;
@@ -146,8 +175,11 @@ footer ul {
 }
 footer{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .resize1{
     width:15%;
+}
+footer a:hover{
+    color:#ffc2bd ;
 }
