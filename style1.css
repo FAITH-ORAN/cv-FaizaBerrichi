@@ -19,5 +19,8 @@
 .resize1{
     width:20%
 }
- 
+ .flex1{
+     display:flex;
+     flex-direction: column;
+ }
 
